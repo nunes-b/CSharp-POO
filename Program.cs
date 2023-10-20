@@ -1,17 +1,23 @@
 ﻿using ScreenSound;
 
 Musica musica1 = new Musica();
-musica1.nome = "Roxanne";
-musica1.artista = "The Police";
-musica1.duracao = 273;
-musica1.disponivel = true;
+musica1.Nome = "Roxanne";
+musica1.Artista = "The Police";
+musica1.Duracao = 273;
+musica1.Disponivel = true;
+Console.WriteLine(musica1.DescricaoResumida);
 
-musica1.ExibirFichaTecnica();
 
 Musica musica2 = new Musica();
-musica2.nome = "False BoDY";
-musica2.artista = "The Body";
-musica2.duracao = 123;
-musica2.disponivel = false;
+musica2.Nome = "False BoDY";
+musica2.Artista = "The Body";
+musica2.Duracao = 123;
+musica2.Disponivel = false;
 
+
+
+musica1.ExibirFichaTecnica();
 musica2.ExibirFichaTecnica();
+
+
+
